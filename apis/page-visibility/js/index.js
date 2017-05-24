@@ -1,5 +1,5 @@
 let hidden, visibilityChange; 
-if (typeof document.hidden != "undefined") { // Suporte para Opera 12.10 e Firefox 18 em diante 
+if (typeof document.hidden != "undefined") { 
   hidden = "hidden";
   visibilityChange = "visibilitychange";
 }

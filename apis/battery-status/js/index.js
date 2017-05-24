@@ -66,12 +66,4 @@ battery.then(function(battery) {
     	updateBatteryStatus(battery);
     };
 
-    battery.onchargingTime = function () {
-        updateBatteryStatus(battery);
-    };
-
-    battery.ondischargingTime = function () {
-        updateBatteryStatus(battery);
-    };
-
 });
